@@ -6,7 +6,7 @@ class Invoice
 public:
 	Invoice();
 	Invoice(string partNumber,string partDescription,int quant,double price);
-	~Invoice(){ }
+	~Invoice(){cout<<"Destructing....";}
 	void setPartNum(string partNumber);
 	string getPartNum();
 	void setPartDesc(string partDescription);
